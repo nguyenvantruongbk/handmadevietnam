@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.danh-muc {
+    padding: 20px;
+}
+
+.danh-muc ul {
+    list-style: none;
+    padding: 0;
+}
+
+.danh-muc ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.danh-muc ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.san-pham {
+    padding: 20px;
+}
+
+.san-pham ul {
+    list-style: none;
+    padding: 0;
+}
+
+.san-pham ul li {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.san-pham ul li img {
+    width: 100%;
+}
+
+.san-pham ul li h3 {
+    margin: 10px 0;
+}
+
+.san-pham ul li p {
+    margin: 5px 0;
+}
+
+.san-pham ul li a {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
