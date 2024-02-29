@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/vmenu.css">
+
+</head>
+<body>
+    <header class="section header">
+        <!-- header section -->
+        <div class="container mt-2">
+            <div class="row">
+                <div class="box1 bg-light col-12 col-sm-12 col-lg-12 col-xl-12">                   
+                    <span><i class="bi bi-geo-alt">T2311E Group 2, FPT-Aptech, Detech Building, No 08. Ton That Thuyet, Cau Giay, Viet Nam </i></span>  
+                    <span>&#160&#160&#160<i class="bi bi-envelope-at">t2311egroup2@handmadevietnam.vn</i></span>                               
+                </div>    
+            </div>
+        </div>
+        <div class="container mt-2">
+            <div class="row">
+                <div class="logo bg-light col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <a class="logo mobile-hide" href="index.html">
+                        <img src="images/Logo.png" width="90px" height="90px"/>
+                    </a>
+                </div>
+                <div class="search bg-light col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <form class="d-flex" role="search" >
+                        <input class="form-control me-2 mt-4" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success mt-4" type="submit">Search</button>
+                    </form>
+                    <p>keyword: paint, room funiture,...  </p>
+                </div>
+                <div class="Cart bg-light col-12 col-sm-6 col-lg-4 col-xl-3 ">
+                    <a class="logo mobile-hide" href="checkout.html">
+                        <h1 class="text-center mt-2"><i class="bi bi-cart4"></i></h1>                   
+                        <p class="text-center">Check out</p> 
+                    </a>      
+                </div>               
+                <div class="Account bg-light col-12 col-sm-6 col-lg-4 col-xl-3 ">
+                    <a class="logo mobile-hide" href="login.html">
+                        <h1 class="text-center mt-2"><i class="bi bi-person-circle"></i></h1>                   
+                        <p class="text-center">Account</p>  
+                    </a>     
+                </div>               
+                             
+            </div>
+        </div>        
+    </header>
+        <!-- end header section -->
+    <!-- nav section -->
+    <nav>
+        <div class="container-fluid mt-2 bg-warning sticky-top">
+            <div class="container">           
+                <ul class="nav nav-tabs ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html"><i class="bi bi-house-door"></i>Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="painting.html" role="button" aria-expanded="false"><i class="bi bi-brush"></i>Paint</a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="painting.html">Classic</a></li>
+                        <li><a class="dropdown-item" href="painting.html">Model</a></li>
+                        <li><a class="dropdown-item" href="painting.html">Artist</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="painting.html">Hotest</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="metalsign.html" role="button" aria-expanded="false"><i class="bi bi-wind"></i>Metasign</a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="metalsign.html">Farm</a></li>
+                        <li><a class="dropdown-item" href="metalsign.html">Home</a></li>
+                        <li><a class="dropdown-item" href="metalsign.html">Decor</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="metalsign.html">Hotest</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="Ceramic.html" role="button" aria-expanded="false"><i class="bi bi-unity"></i>Ceramics</a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Ceramic.html">Batrang</a></li>
+                        <li><a class="dropdown-item" href="Ceramic.html">Artist</a></li>
+                        <li><a class="dropdown-item" href="Ceramic.html">Model</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="ceramicproduct.html">Hotest</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="fureniture.html" role="button" aria-expanded="false"><i class="bi bi-door-open"></i>Furniture</a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="fureniture.html">Classic</a></li>
+                        <li><a class="dropdown-item" href="fureniture.html">Model</a></li>
+                        <li><a class="dropdown-item" href="fureniture.html">Tân Cổ điển</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="fureniture.html">Hotest</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-newspaper"></i>News</a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Tip</a></li>
+                        <li><a class="dropdown-item" href="#">Guide</a></li>
+                        <li><a class="dropdown-item" href="#">World</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Hotest</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-info-square"></i>Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true"></a>
+                    </li>
+                    </ul>
+            </div> 
+        </div>  
+    </nav>
+        
+<!-- end nav section -->
+<!-- main -->
+<div class="container">   
+<main>
+<!-- Section slide -->
+    <section> 
+        <div class="row">
+            <!-- veticalMenu -->
+            <div class="box1 bg-light col-12 col-sm-6 col-lg-4 col-xl-3">
+                <div id="vmenu">
+                    <ul>
+                        <li style="background-color: brown;"><a href="index.html">Products List</a></li>
+                        <li>
+                        <a href="painting.html">landscape Art Paintings</a>
+                        <ul class="sub-vmenu">
+                            <li><a href="painting.html">Village</a></li>
+                            <li><a href="painting.html">City</a></li>
+                            <li><a href="painting.html">Forest</a></li>
+                        </ul>
+                        <li>
+                        <a href="painting.html">City Art Paintings</a>
+                        <ul class="sub-vmenu">
+                            <li><a href="painting.html">Ha noi</a></li>
+                            <li><a href="painting.html">Sai gon</a></li>
+                            <li><a href="painting.html">Other</a></li>
+                        </ul>
+                        </li>
+                        <li>
+                        <a href="painting.html">Nude Art Paintings</a>
+                        <ul class="sub-vmenu">
+                            <li><a href="painting.html">Nude Paiting</a></li>
+                            <li><a href="painting.html">Model</a></li>
+                            <li><a href="painting.html">Classic</a></li>
+                        </ul>
+                        </li>
+                        <li>
+                        <a href="metalsign.html">Metalsign Art</a>
+                        <ul class="sub-vmenu">
+                            <li><a href="metalsign.html">Wall Art Metal</a></li>
+                            <li><a href="metalsign.html">Light Art Metal</a></li>
+                            <li><a href="metalsign.html">Room Decoration Art Metal</a></li>
+                        </ul>
+                        </li>
+                        <li>
+                        <a href="Ceramic.html">Art Ceramic Products</a>
+                        <ul class="sub-vmenu">
+                            <li><a href="Ceramic.html">Gate Farm Art Metal</a></li>
+                            <li><a href="Ceramic.html">Bridcage Art Metal</a></li>
+                            <li><a href="Ceramic.html">Farm Decoration Art Metal</a></li>
+                        </ul>
+                        </li>
+                        <li>
+                        <a href="fureniture.html">Art Furniture Products</a>
+                        <ul class="sub-vmenu">
+                            <li><a href="fureniture.html">Gate Farm Art Metal</a></li>
+                            <li><a href="fureniture.html">Bridcage Art Metal</a></li>
+                            <li><a href="fureniture.html">Farm Decoration Art Metal</a></li>
+                        </ul>
+                        </li>
+                        <li>
+                        <a href="#">Art Decoration Tip</a>
+                        <ul class="sub-vmenu">
+                            <li><a href="#">Gate Farm Art Metal</a></li>
+                            <li><a href="#">Bridcage Art Metal</a></li>
+                            <li><a href="#">Farm Decoration Art Metal</a></li>
+                        </ul>
+                        </li>
+                        <li>
+                        <a href="#">Hanmade Art Gallery</a>
+                        <ul class="sub-vmenu">
+                            <li><a href="#">Gate Farm Art Metal</a></li>
+                            <li><a href="#">Bridcage Art Metal</a></li>
+                            <li><a href="#">Farm Decoration Art Metal</a></li>
+                        </ul>
+                        </li>
+                        <li>
+                        <a href="#">Vietnamese handmade Heritage</a>
+                        <ul class="sub-vmenu">
+                            <li><a href="#">Gate Farm Art Metal</a></li>
+                            <li><a href="#">Bridcage Art Metal</a></li>
+                            <li><a href="#">Farm Decoration Art Metal</a></li>
+                        </ul>
+                        </li>
+                        <li>
+                        <a href="#">Art Decoration Book</a>
+                        <ul class="sub-vmenu">
+                            <li><a href="#">Gate Farm Art Metal</a></li>
+                            <li><a href="#">Bridcage Art Metal</a></li>
+                            <li><a href="#">Farm Decoration Art Metal</a></li>
+                        </ul>
+                        </li>
+                        <li>
+                        <a href="#">Art House</a>
+                        <ul class="sub-vmenu">
+                            <li><a href="#">Gate Farm Art Metal</a></li>
+                            <li><a href="#">Bridcage Art Metal</a></li>
+                            <li><a href="#">Farm Decoration Art Metal</a></li>
+                        </ul>
+                        </li>
+                    </ul>
+                    </div>
+            </div>
+            <!-- envertical menu -->
+            <!-- sildeshow -->
+            <div class="box2 bg-light col-12 col-sm-6 col-lg-8 col-xl-9">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="images/bn1.PNG" class="d-block w-100" alt="...">                      
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                        <img src="images/bn2.PNG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="images/bn3.PNG" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    </div>
+            </div>
+            <!-- enslide show -->
+
+        </div>
+            
+    </section>
+    <!-- end slide -->
+    <div class="container"> 
+        <hr class="gradient">
+    </div>
+    <!-- pruduct1 -->
+    <section ><h4><span><i class="bi bi-brush"></i></span><a href="painting.html">Paint Art Handmade</a></h4>
+        <!-- hang 1 san pham -->
+        <div class="container mt-2">
+            <div class="row" style="height: 500px;">
+                <!-- slide -->
+                <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2000">
+                                <img src="images/Cuongcat3.jpg" class="d-block w-100" alt="...">                      
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                            <img src="images/Cuongcat1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="images/Cuongcat2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
+                </div>
+                <!-- endslide -->
+                <!-- them the san pham o day -->
+                <div class="box1 row bg-light col-12 col-sm-6 col-lg-4 col-xl-9">
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/CuongTranh10.jpg" class="card-img-top" alt="..."width="300px" height="300px">
+                            <div class="card-body"width="300px" height="200px">
+                              <h5 class="card-title">The Sea At Dawn</h5>
+                              <p class="card-text">
+                                MATERIAL:	Acrylic on Canvas SIZE : 80cm*100cm |  31.3nches*39.3 inches</p>
+                              <a href="cuongproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/CuongTranh11.jpg" class="card-img-top" alt="..."width="300px" height="300px">
+                            <div class="card-body"width="300px" height="200px">
+                              <h5 class="card-title">Theater For Worker</h5>
+                              <p class="card-text">
+                                ARTIST:	Pham Hoang Minh
+                                MATERIAL:	Oil on canvas SIZE : 89cm*119cm |  35nches*46.8 inches</p>
+                              <a href="cuongproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/CuongTranh12.jpg" class="card-img-top" alt="..."width="300px" height="300px">
+                            <div class="card-body"width="300px" height="200px">
+                              <h5 class="card-title">Saigon's people committee Office</h5>
+                              <p class="card-text"> SIZE : 89cm*119cm |  35nches*46.8 inches
+                              </p>
+                              <a href="cuongproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <!-- end them san pham -->
+            </div>
+           <!-- end hang 1 san pham  -->
+         <!-- hang 2 san pham -->
+         <div class="container mt-2">
+            <div class="row" style="height: 500px;">
+                <!-- slide -->
+                <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2000">
+                                <img src="images/cuongcat4.jpg" class="d-block w-100" alt="...">                      
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                            <img src="images/cuongcat5.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="images/Cuongcat6.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
+                </div>
+                <!-- endslide -->
+                <!-- them the san pham o day -->
+                <div class="box1 row bg-light col-12 col-sm-6 col-lg-4 col-xl-9">
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/CuongTranh3.jpg" class="card-img-top" alt="..."width="300px" height="300px">
+                            <div class="card-body"width="300px" height="200px">
+                              <h5 class="card-title">Street in Autumn</h5>
+                              <p class="card-text"> ARTIST:	Giap Van Tuan
+                                MATERIAL:	Oil on canvas 
+                                SIZE:	80cm*120cm | 31.5 inches * 47.2 inches</p>
+                              <a href="cuongproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/CuongTranh2.jpg" class="card-img-top" alt="..."width="300px" height="300px">
+                            <div class="card-body"width="300px" height="200px">
+                              <h5 class="card-title">Huong Tuong Temple</h5>
+                              <p class="card-text">
+                                MATERIAL:	Oil on canvas SIZE:	80cm*100cm | 31.5 nches*47.2 inches</p>
+                              <a href="cuongproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/CuongTranh1.jpg" class="card-img-top" alt="..."width="300px" height="300px">
+                            <div class="card-body"width="300px" height="200px">
+                              <h5 class="card-title">Hanoi in Season of Golden Leaves
+                            </h5>
+                              <p class="card-text">SIZE:	80cm*120cm | 31.5 inches*47.2 inches</p>
+                              <a href="cuongproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <!-- end them san pham -->
+            </div>
+           <!-- end hang 2 san pham  -->
+        </div>   
+    </section>
+    <!-- enProduct1 -->
+    <div class="container"> 
+        <hr class="gradient">
+    </div>
+    <!-- pruduct2 -->
+    <section ><h4><span><i class="bi bi-brush"></i></span><a href="metalsign.html">Metalsign Art Handmade</a></h4>
+        <!-- hang 1 san pham -->
+        <div class="container mt-2">
+            <div class="row" style="height: 500px;">
+                <!-- slide -->
+                <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2000">
+                                <img src="images/Africa 11.jpg" class="d-block w-100" alt="...">                      
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                            <img src="images/bigfoot 1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="images/Birdcage (11).jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
+                </div>
+                <!-- endslide -->
+                <!-- them the san pham o day -->
+                <div class="box1 row bg-light col-12 col-sm-6 col-lg-4 col-xl-9">
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/Africa 2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Africa Woman Metal Wall Art </h5>
+                              <p class="card-text">Black Girls Sign Decoration For Room, Africa Woman Metal LED Decor</p>
+                              <a href="hieuproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/Bigfoot 2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Bigfoot And Alien Under The Moon </h5>
+                              <p class="card-text">Metal Wall Art With LED Light, Bigfoot UFO Sign Decoration For Room</p>
+                              <a href="hieuproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/Birdcage (2).jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Birdcage Metal Sign,Birdcage Wall Art</h5>
+                              <p class="card-text">Birdcage Metal Sign,Birdcage Wall Art,Front Door Decor,Metal Wall Art for Room Decor</p>
+                              <a href="hieuproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <!-- end them san pham -->
+            </div>
+           <!-- end hang 1 san pham  -->
+         <!-- hang 2 san pham -->
+         <div class="container mt-2">
+            <div class="row" style="height: 500px;">
+                <!-- slide -->
+                <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2000">
+                                <img src="images/Butterfly (11).jpg" class="d-block w-100" alt="...">                      
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                            <img src="images/workshop (11).jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="images/welcome (11).jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
+                </div>
+                <!-- endslide -->
+                <!-- them the san pham o day -->
+                <div class="box1 row bg-light col-12 col-sm-6 col-lg-4 col-xl-9">
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/Butterfly (22).jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Butterfly Metal Sign,Butterfly Floral Sign</h5>
+                              <p class="card-text">Butterfly Metal Sign,Butterfly Floral Sign,Custom Butterfly Wall Art,Garden Decor </p>
+                              <a href="hieuproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/workshop (2).jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Workshop Sign Motorcycle Sign Motorcycle</h5>
+                              <p class="card-text">Workshop Sign Motorcycle Sign Motorcycle Repair Office Decor Wall Art Motorcycle</p>
+                              <a href="hieuproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/welcome (22).jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Welcome Yard Stake Metal Sign, Outdoor Patio.</h5>
+                              <p class="card-text">Welcome Yard Stake Metal Sign, Outdoor Patio, Metal Yard Art, Garden Art.</p>
+                              <a href="hieuproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <!-- end them san pham -->
+            </div>
+           <!-- end hang 2 san pham  -->
+        </div>   
+    </section>
+    <!-- enProduct2 -->
+    <div class="container"> 
+        <hr class="gradient">
+    </div>
+    <!-- pruduct3 -->
+    <section ><h4><span><i class="bi bi-brush"></i></span><a href="Ceramic.html">Ceramics Art Handmade</a></h4>
+        <!-- hang 1 san pham -->
+        <div class="container mt-2">
+            <div class="row" style="height: 500px;">
+                <!-- slide -->
+                <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2000">
+                                <img src="images/binh gom 11.jpg" class="d-block w-100" alt="...">                      
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                            <img src="images/dia gom 22.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="images/bat gom 11.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
+                </div>
+                <!-- endslide -->
+                <!-- them the san pham o day -->
+                <div class="box1 row bg-light col-12 col-sm-6 col-lg-4 col-xl-9">
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/binh gom 2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Bình gốm Bát Tràng</h5>
+                              <p class="card-text">The flower vase is printed with the word fortune as a wish sent to the recipient.</p>
+                              <a href="sonproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/dia gom 11.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Đĩa gốm Bát Tràng</h5>
+                              <p class="card-text">This is a Bat Trang plate made from Bat Trang's traditional enamel line with sophistication.</p>
+                              <a href="sonproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/bat gom 2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Bát gốm Bát Tráng</h5>
+                              <p class="card-text">The ceramic lotus flower bowl is a traditional Vietnamese ceramic product.</p>
+                              <a href="sonproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <!-- end them san pham -->
+            </div>
+           <!-- end hang 1 san pham  -->
+         <!-- hang 2 san pham -->
+         <div class="container mt-2">
+            <div class="row" style="height: 500px;">
+                <!-- slide -->
+                <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2000">
+                                <img src="images/coc gom 11.jpg" class="d-block w-100" alt="...">                      
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                            <img src="images/tranhgom.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="images/nangom1.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
+                </div>
+                <!-- endslide -->
+                <!-- them the san pham o day -->
+                <div class="box1 row bg-light col-12 col-sm-6 col-lg-4 col-xl-9">
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/coc gom 2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Cốc gốm Bát Tràng</h5>
+                              <p class="card-text">Beautiful ceramic cup products for families or for use in restaurants and hotels.</p>
+                              <a href="sonproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/batnhang3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Bộ đồ thờ Bát Tràng</h5>
+                              <p class="card-text">Bat Trang altarpieces are made from high-quality natural clay materials.</p>
+                              <a href="sonproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/amchen.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Bộ ấm chén Bát Tràng</h5>
+                              <p class="card-text">The Bat Trang tea set is a product made from selected white enamel material.</p>
+                              <a href="sonproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <!-- end them san pham -->
+            </div>
+           <!-- end hang 2 san pham  -->
+        </div>   
+    </section>
+    <!-- enProduct3 -->
+    <div class="container"> 
+        <hr class="gradient">
+    </div>
+    <!-- pruduct4 -->
+    <section ><h4><span><i class="bi bi-brush"></i></span><a href="fureniture.html">Furniture Art Handmade</a></h4>
+        <!-- hang 1 san pham -->
+        <div class="container mt-2">
+            <div class="row" style="height: 500px;">
+                <!-- slide -->
+                <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2000">
+                                <img src="images/TruongDoc1.jpg" class="d-block w-100" alt="...">                      
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                            <img src="images/TruongDoc2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="images/TruongDoc3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
+                </div>
+                <!-- endslide -->
+                <!-- them the san pham o day -->
+                <div class="box1 row bg-light col-12 col-sm-6 col-lg-4 col-xl-9">
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/TruongNilon3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">NYLON SUBSTITUTES</h5>
+                              <p class="card-text">Dining table lining</p>
+                              <a href="truongproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/TruongNoithat05.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Hyacinth tables</h5>
+                              <p class="card-text">INTERIOR AND EXTERIOR PRODUCTS</p>
+                              <a href="truongproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/TruongNoithat03.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Hyacinth furniture</h5>
+                              <p class="card-text">INTERIOR AND EXTERIOR PRODUCTS</p>
+                              <a href="truongproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <!-- end them san pham -->
+            </div>
+           <!-- end hang 1 san pham  -->
+         <!-- hang 2 san pham -->
+         <div class="container mt-2">
+            <div class="row" style="height: 500px;">
+                <!-- slide -->
+                <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2000">
+                                <img src="images/TruongDoc4.jpg" class="d-block w-100" alt="...">                      
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                            <img src="images/TruongDoc6.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="images/TruongDoc7.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
+                </div>
+                <!-- endslide -->
+                <!-- them the san pham o day -->
+                <div class="box1 row bg-light col-12 col-sm-6 col-lg-4 col-xl-9">
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/TruongNoithat04.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Hyacinth tables and chairs</h5>
+                              <p class="card-text">INTERIOR AND EXTERIOR PRODUCTS</p>
+                              <a href="truongproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/TruongNoithat03.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Hyacinth furniture</h5>
+                              <p class="card-text">INTERIOR AND EXTERIOR PRODUCTS</p>
+                              <a href="truongproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/TruongNoithat02.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Hyacinth furniture</h5>
+                              <p class="card-text">INTERIOR AND EXTERIOR PRODUCTS</p>
+                              <a href="truongproduct.html" class="btn btn-primary">Buy Product</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <!-- end them san pham -->
+            </div>
+           <!-- end hang 2 san pham  -->
+        </div>   
+    </section>
+    <!-- enProduct4 -->
+    <div class="container"> 
+        <hr class="gradient">
+    </div>
+    <!-- news art handmade -->
+    <section><h4>News Vietnam Handmade Today</h4>
+        <div class="container mt-2">
+            <div class="row" style="height: 500px;">
+                <div class="box1 bg-light col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Handcrafted Furniture – The Beauty of Condensation</h5>
+                          <p class="card-text">MACHINES ARE INHERENTLY IRREPLACEABLE FOR HUMAN HANDS
+                            OR THE INGENIOUS CREATIVITY OF THE ARTISAN.
+                            IF YOU REALLY CARE ABOUT A SUSTAINABLE QUALITY OF LIFE,
+                            DON'T PASS UP THE OPPORTUNITY TO DONATE HANDMADE FURNITURE.</p>
+                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                        <img src="images/TruongThongtin4.jpg" class="card-img-bottom" alt="...">
+                      </div>
+                </div>
+                <div class="box1 bg-light col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">"Thanks! Nice Gift Again"</h5>
+                          <p class="card-text">What a kind of the feelings! Thank you, Henry and who ever pack that art painting box. Pack so nice and carefully!
+                            Many thanks,</p>
+                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                        <img src="images/CuongTin4.jpg" class="card-img-bottom" alt="...">
+                      </div>
+                </div>
+                <div class="box1 bg-light col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Custom Metal Farmer Sign</h5>
+                          <p class="card-text">Whether you want to display your farm name, property address, or a special message, our Custom Metal Farmer Sign.</p>
+                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                        <img src="images/butter 1.jpg" class="card-img-bottom" alt="...">
+                      </div>
+                </div>
+                <div class="box1 bg-light col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">So why wait?</h5>
+                          <p class="card-text">Add some character to your home with this one-of-a-kind Custom Metal Farmer Sign today!.</p>
+                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                        <img src="images/mountain 1.jpg" class="card-img-bottom" alt="...">
+                      </div>
+                </div>   
+                </div>
+            </div>
+
+        </div>   
+    </section>
+    <div class="container"> 
+        <hr class="gradient">
+    </div>
+    <!-- end news art handme -->
+</main>
+</div> 
+<!-- endmain    -->
+<!-- footer -->
+    <footer>
+        <div class="container-fluid mt-2 bg-warning" style="height: 50px;"> 
+            <div class="container" style="padding: 5px;">
+                <div class="input-group">
+                    <span class="input-group-text bg-warning">Để lại Email<i class="bi bi-envelope-at-fill"></i> hoặc số điện thoại để cập nhật khuyến mãi nhanh nhất
+                    </span>
+                    <input type="text" aria-label="First name" class="form-control" placeholder="nguyen@gmail.com">
+                    <input type="text" aria-label="Last name" class="form-control" placeholder="091912345678">
+                  </div>
+                   
+            </div>
+        </div>
+        <div class="container mt-2">
+            <div class="row">
+                <div class="box1 bg-light col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <a href="#"><img src="images/Logo.png" alt="Handmade Viet Nam" width="100px" height="100px"></a>
+                    <p>
+                        <strong>Handmadevietnam</strong> là sự kết hợp của sự tinh tế, sáng tạo và độc đáo. Với những sản phẩm được làm thủ công bởi các nghệ nhân tài năng và đam mê, không chỉ làm nổi bật vẻ đẹp tự nhiên và văn hóa độc đáo của Việt Nam mà còn truyền tải thông điệp về sự chăm sóc, tôn trọng môi trường và cộng đồng.
+                    </p>
+
+
+                </div>
+                <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-3 mt-5">   
+                    <ul style="list-style: none; float: left;">
+                        VỀ CHÚNG TÔI
+                        <li><a href="#">Sản phẩm</a></li>
+                        <li><a href="#">Khuyến mãi HOT</a></li>
+                        <li><a href="#">Flash sale</a></li>
+                        <li><a href="#">Thương hiệu</a></li>
+                        <li><a href="#">Tin tức</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                    </ul>
+                </div>
+                <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-3 mt-5">   
+                    <ul style="list-style: none; float: left;">
+                        HƯỚNG DẪN
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Chính sách bảo trì</a></li>
+                        <li><a href="#">Chính sách & Quy định chung</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                        <li><a href="#">Chính sách đổi trả và hoàn tiền</a></li>
+                        <li><a href="#">Quy định và hình thức thanh toán</a></li>
+                        <li><a href="#">Điều khoản dịch vụ</a></li>
+                    </ul>
+                </div>
+                <div class="box2 bg-light col-12 col-sm-6 col-lg-4 col-xl-3 mt-5">   
+                    <ul style="list-style: none; float: left;">
+                        THÔNG TIN
+                        <li><a href="#">Giấy phép đăng ký kinh doanh</a></li>
+                        <li><a href="#">Map mua hàng</a></li>
+                        <li><a href="#">Đội ngũ nhân viên</a></li>
+                        <li><a href="#">Giải thưởng</a></li>
+                        <li><a href="#">Liên hệ làm đại lý</a></li>
+                    </ul>
+                </div>
+                <div class="box2 bg-info col-12 col-sm-12 col-lg-12 col-xl-12 ">   
+                    <ul style="list-style: none; text-align: left;">
+                        <strong>HANDMADEVIETNAM Co., Ltd.</strong>
+                        <li>SĐKKD: 666688888. Được cấp bởi: Sở Kế hoạch và Đầu tư TP. Hà Nội</li>
+                        <li>Address: T2311E Group 2, FPT-Aptech, Detech Building, No 08. Ton That Thuyet, Cau Giay, Viet Nam</li>
+                        <li>Phone: 098866668888</li>
+                        <li>© 2024 Bản quyền thuộc về T231E-GROUP 2</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+<!-- endfooter -->
+</body>
+</html>
